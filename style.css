@@ -1,0 +1,129 @@
+html,
+body {
+	height: 100%;
+}
+#cover {
+	background: #222 url('/2690.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+}
+
+#login{
+	margin-left: -150px;
+}
+
+@media(min-width: 576px)
+{
+	#login{
+		margin-left: -250px;
+	}
+}
+
+#cover-caption{
+	width: 100%;
+}
+#name{
+	margin-left: 45px;
+}
+
+@media (min-width: 576px) 
+{
+ #name{
+ 	text-align: center;
+ 	margin-left: 96px;
+ 	margin-right: 5px;
+ }
+}	
+
+#email{
+	margin-left: 45px;
+}
+@media (min-width: 576px) 
+{
+ #email{
+ 	text-align: center;
+ 	margin-left: 5px;
+ }
+}	
+
+
+.go{
+	margin-left: 45px;
+}
+
+@media (min-width: 576px){
+	.go{
+		margin-left: 10px;
+	}
+}
+
+img{
+	max-width: 100%;
+}
+
+
+#carousel
+{
+	width: 49.5%;
+	height: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 578px)
+{
+	#carousel{
+		width: 49.8%;
+		height: 100%;
+
+	}
+}
+
+
+
+.carousel{
+	overflow: hidden;
+}
+
+img.carousel
+{
+    margin-top: -38px ;
+}
+
+
+.section-content{
+	padding: 5rem 0  ;
+}
+
+
+#about{
+	background: url('upload/2690.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+
+
+.about-text{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+
+}
+
+@media(min-width: 578px){
+.about-text{
+	margin-left: 40px;s
+}
+}
+
+
+#footer-main{
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem;
+}
